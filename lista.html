@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/cascada.js" type="text/javascript"> </script>
+        <script src="js/jquery.cascada_plugin.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/listas.css">
+
+        <script>
+            $(document).on("ready",function(){
+                $("#divLista").cascada();
+
+            });
+
+        </script>
+    </head>
+
+
+
+<body>
+
+      <h1>Lista de Cascada</h1>
+          <div id="divControles">
+              <label for="txtNombre">Nombre: </label>
+              <input type="text" id="txtNombre" size="30">
+              <input type="button" value="Agregar" id="btnAgregar">
+
+          </div>
+
+      <ul id="divLista">
+
+      </ul>
+
+</body>
+
+
+</html>
