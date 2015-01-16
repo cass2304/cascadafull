@@ -2,12 +2,12 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
+     destination: /usr/local/nginx/html/prueba
 permissions:
-   - object: /var/www/html
+   - object: /usr/local/nginx/html/prueba
      pattern: "**"
-     owner: apache
-     group: apache
+     owner: nginx
+     group: nginx
      mode: 755
      type:
        - file
